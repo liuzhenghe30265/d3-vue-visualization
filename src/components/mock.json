@@ -1,0 +1,375 @@
+{
+  "code": 0,
+  "message": "",
+  "data": {
+    "relations": [{
+      "id": "2730",
+      "name": "composed_of",
+      "semantic_type": "composed_of",
+      "properties": {
+        "scenes": "allinmd",
+        "status": 1,
+        "lastModified": 1618832915,
+        "releaseDate": 1618832915
+      },
+      "direction": 0,
+      "relation_node": {
+        "id": "2c29f5249cf211ebbc710242c0a8c409",
+        "name": "外伤史",
+        "semantic_type": "Symptom",
+        "labels": ["Concept", "Symptom"],
+        "properties": {
+          "scenes": "allinmd",
+          "status": 1,
+          "lastModified": 1618384950,
+          "releaseDate": 1618384950
+        }
+      }
+    }, {
+      "id": "2677",
+      "name": "composed_of",
+      "semantic_type": "composed_of",
+      "properties": {
+        "scenes": "allinmd",
+        "status": 1,
+        "lastModified": 1618803809,
+        "releaseDate": 1618803809
+      },
+      "direction": 1,
+      "relation_node": {
+        "id": "8f2d01129c1011eb892ad31672d12132",
+        "name": "膝关节外伤及手术史",
+        "semantic_type": "Symptom",
+        "labels": ["Concept", "Symptom"],
+        "properties": {
+          "scenes": "allinmd",
+          "status": 1,
+          "lastModified": 1618293198,
+          "releaseDate": 1618293198
+        }
+      }
+    }, {
+      "id": "2649",
+      "name": "relation",
+      "semantic_type": "relation",
+      "properties": {
+        "scenes": "allinmd",
+        "status": 1,
+        "lastModified": 1618885401,
+        "releaseDate": 1618885401
+      },
+      "direction": 1,
+      "relation_node": {
+        "id": "8e8922369c1011eb892ad31672d12132",
+        "name": "髌骨肌腱炎",
+        "semantic_type": "BodyStructure",
+        "labels": ["Concept", "Disease"],
+        "properties": {
+          "scenes": "allinmd",
+          "status": 1,
+          "lastModified": 1618293198,
+          "releaseDate": 1618293198
+        }
+      }
+    }, {
+      "id": "2672",
+      "name": "relation",
+      "semantic_type": "relation",
+      "properties": {
+        "scenes": "allinmd",
+        "status": 1,
+        "lastModified": 1618885282,
+        "releaseDate": 1618885282
+      },
+      "direction": 1,
+      "relation_node": {
+        "id": "8f0c21689c1011eb892ad31672d12132",
+        "name": "膝关节脱位",
+        "semantic_type": "Disease",
+        "labels": ["Concept", "Disease"],
+        "properties": {
+          "scenes": "allinmd",
+          "status": 1,
+          "lastModified": 1618293198,
+          "releaseDate": 1618293198
+        }
+      }
+    }, {
+      "id": "2662",
+      "name": "relation",
+      "semantic_type": "relation",
+      "properties": {
+        "scenes": "allinmd",
+        "status": 1,
+        "lastModified": 1618885172,
+        "releaseDate": 1618885172
+      },
+      "direction": 1,
+      "relation_node": {
+        "id": "8eec11d49c1011eb892ad31672d12132",
+        "name": "股骨髁骨折",
+        "semantic_type": "Side",
+        "labels": ["Concept", "Disease"],
+        "properties": {
+          "scenes": "allinmd",
+          "status": 1,
+          "lastModified": 1618293198,
+          "releaseDate": 1618293198
+        }
+      }
+    }, {
+      "id": "2660",
+      "name": "relation",
+      "semantic_type": "relation",
+      "properties": {
+        "scenes": "allinmd",
+        "status": 1,
+        "lastModified": 1618885118,
+        "releaseDate": 1618885118
+      },
+      "direction": 1,
+      "relation_node": {
+        "id": "8ed52bcc9c1011eb892ad31672d12132",
+        "name": "膝关节内侧副韧带损伤",
+        "semantic_type": "Disease",
+        "labels": ["Concept", "Disease"],
+        "properties": {
+          "scenes": "allinmd",
+          "status": 1,
+          "lastModified": 1618293198,
+          "releaseDate": 1618293198
+        }
+      }
+    }, {
+      "id": "2636",
+      "name": "relation",
+      "semantic_type": "relation",
+      "properties": {
+        "scenes": "allinmd",
+        "status": 1,
+        "lastModified": 1618884966,
+        "releaseDate": 1618884966
+      },
+      "direction": 1,
+      "relation_node": {
+        "id": "8ebdb2d09c1011eb892ad31672d12132",
+        "name": "膝髌韧带裂（扭）伤",
+        "semantic_type": "Disease",
+        "labels": ["Concept", "Disease"],
+        "properties": {
+          "scenes": "allinmd",
+          "status": 1,
+          "lastModified": 1618293198,
+          "releaseDate": 1618293198
+        }
+      }
+    }, {
+      "id": "2621",
+      "name": "relation",
+      "semantic_type": "relation",
+      "properties": {
+        "scenes": "allinmd",
+        "status": 1,
+        "lastModified": 1618883252,
+        "releaseDate": 1618883252
+      },
+      "direction": 1,
+      "relation_node": {
+        "id": "84417f449c1011eb892ad31672d12132",
+        "name": "剥脱性骨软骨炎",
+        "semantic_type": "Disease",
+        "labels": ["Concept", "Disease"],
+        "properties": {
+          "scenes": "allinmd",
+          "status": 1,
+          "lastModified": 1618293198,
+          "releaseDate": 1618293198
+        }
+      }
+    }, {
+      "id": "2553",
+      "name": "relation",
+      "semantic_type": "relation",
+      "properties": {
+        "scenes": "allinmd",
+        "status": 1,
+        "lastModified": 1618886711,
+        "releaseDate": 1618886711
+      },
+      "direction": 1,
+      "relation_node": {
+        "id": "8ef701fc9c1011eb892ad31672d12132",
+        "name": "髌骨脱位",
+        "semantic_type": "BetterAndWorse",
+        "labels": ["Concept", "Disease"],
+        "properties": {
+          "scenes": "allinmd",
+          "status": 1,
+          "lastModified": 1618293198,
+          "releaseDate": 1618293198
+        }
+      }
+    }, {
+      "id": "2538",
+      "name": "relation",
+      "semantic_type": "relation",
+      "properties": {
+        "scenes": "allinmd",
+        "status": 1,
+        "lastModified": 1618886139,
+        "releaseDate": 1618886139
+      },
+      "direction": 1,
+      "relation_node": {
+        "id": "8edf38889c1011eb892ad31672d12132",
+        "name": "膝关节游离体",
+        "semantic_type": "Disease",
+        "labels": ["Concept", "Disease"],
+        "properties": {
+          "scenes": "allinmd",
+          "status": 1,
+          "lastModified": 1618293198,
+          "releaseDate": 1618293198
+        }
+      }
+    }, {
+      "id": "2531",
+      "name": "relation",
+      "semantic_type": "relation",
+      "properties": {
+        "scenes": "allinmd",
+        "status": 1,
+        "lastModified": 1618886026,
+        "releaseDate": 1618886026
+      },
+      "direction": 1,
+      "relation_node": {
+        "id": "8eb96dc49c1011eb892ad31672d12132",
+        "name": "髌骨软骨软化",
+        "semantic_type": "Relieve",
+        "labels": ["Concept", "Disease"],
+        "properties": {
+          "scenes": "allinmd",
+          "status": 1,
+          "lastModified": 1618293198,
+          "releaseDate": 1618293198
+        }
+      }
+    }, {
+      "id": "2527",
+      "name": "relation",
+      "semantic_type": "relation",
+      "properties": {
+        "scenes": "allinmd",
+        "status": 1,
+        "lastModified": 1618885900,
+        "releaseDate": 1618885900
+      },
+      "direction": 1,
+      "relation_node": {
+        "id": "84254cac9c1011eb892ad31672d12132",
+        "name": "半月板囊肿",
+        "semantic_type": "Disease",
+        "labels": ["Concept", "Disease"],
+        "properties": {
+          "scenes": "allinmd",
+          "status": 1,
+          "lastModified": 1618293198,
+          "releaseDate": 1618293198
+        }
+      }
+    }, {
+      "id": "2582",
+      "name": "relation",
+      "semantic_type": "relation",
+      "properties": {
+        "scenes": "allinmd",
+        "status": 1,
+        "lastModified": 1618803809,
+        "releaseDate": 1618803809
+      },
+      "direction": 1,
+      "relation_node": {
+        "id": "8ed7c3509c1011eb892ad31672d12132",
+        "name": "闭合型胫骨平台骨折",
+        "semantic_type": "Disease",
+        "labels": ["Concept", "Disease"],
+        "properties": {
+          "scenes": "allinmd",
+          "status": 1,
+          "lastModified": 1618293198,
+          "releaseDate": 1618293198
+        }
+      }
+    }, {
+      "id": "2552",
+      "name": "relation",
+      "semantic_type": "relation",
+      "properties": {
+        "scenes": "allinmd",
+        "status": 1,
+        "lastModified": 1618803809,
+        "releaseDate": 1618803809
+      },
+      "direction": 1,
+      "relation_node": {
+        "id": "8401f0d69c1011eb892ad31672d12132",
+        "name": "半月板损伤",
+        "semantic_type": "Disease",
+        "labels": ["Concept", "Disease"],
+        "properties": {
+          "scenes": "allinmd",
+          "status": 1,
+          "lastModified": 1618293198,
+          "releaseDate": 1618293198
+        }
+      }
+    }, {
+      "id": "5534",
+      "name": "relation",
+      "semantic_type": "relation",
+      "properties": {
+        "scenes": "allinmd",
+        "status": 1,
+        "lastModified": 1618882945,
+        "releaseDate": 1618882945
+      },
+      "direction": 1,
+      "relation_node": {
+        "id": "8ee67ed69c1011eb892ad31672d12132",
+        "name": "髌骨骨折",
+        "semantic_type": "Action",
+        "labels": ["Concept", "Disease"],
+        "properties": {
+          "scenes": "allinmd",
+          "status": 1,
+          "lastModified": 1618293198,
+          "releaseDate": 1618293198
+        }
+      }
+    }, {
+      "id": "2533",
+      "name": "relation",
+      "semantic_type": "relation",
+      "properties": {
+        "scenes": "allinmd",
+        "status": 1,
+        "lastModified": 1618886473,
+        "releaseDate": 1618886473
+      },
+      "direction": 1,
+      "relation_node": {
+        "id": "8ee6f92e9c1011eb892ad31672d12132",
+        "name": "膝关节或韧带的脱位、劳损或扭伤",
+        "semantic_type": "Disease",
+        "labels": ["Concept", "Disease"],
+        "properties": {
+          "scenes": "allinmd",
+          "status": 1,
+          "lastModified": 1618293198,
+          "releaseDate": 1618293198
+        }
+      }
+    }]
+  }
+}
