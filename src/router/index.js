@@ -5,8 +5,13 @@ Vue.use(VueRouter)
 
 const routes = [
   {
+    path: '/map',
+    name: 'map',
+    component: () => import('../pages/map.vue')
+  },
+  {
     path: '/',
-    name: 'D3',
+    name: 'visualization',
     component: () => import('../pages/visualization.vue')
   }
 ]
