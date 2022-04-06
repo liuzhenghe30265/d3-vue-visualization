@@ -1,18 +1,9 @@
-<!--
- * @Author: liuzhenghe
- * @Email: liuzhenghe@allinmd.cn
- * @Date: 2021-05-11 09:45:47
- * @LastEditors: liuzhenghe
- * @LastEditTime: 2021-05-11 09:57:13
- * @Descripttion: d3.js 中国地图
--->
-
 <template>
   <div
     class="d3map-container">
     <div
       class="info">
-      {{info}}
+      {{ info }}
     </div>
     <svg />
   </div>
@@ -22,28 +13,28 @@
 import * as d3 from 'd3'
 import data from './ChinaGeoData.json'
 export default {
-  data() {
+  data () {
     return {
-      info: '',
+      info: ''
     }
   },
   watch: {
     nodes: {
-      handler() {
+      handler () {
       },
       deep: true
     }
   },
-  mounted() {
+  mounted () {
     this.initD3()
   },
   methods: {
 
-    randomColor() {
+    randomColor () {
       const colors = ['#F4AB87', '#EEC88D', '#76CADF', '#97DA9D', '#88DCD8', '#FB7F89', '#F0E403', '#F576BE', '#ACADFF', '#7EC3FB', '#D0DB02', '#C07B11', '#00ACC2', '#2AAD41', '#A59D00', '#EB4747', '#CD0EBD', '#DE3997']
       return colors[Math.floor(Math.random() * colors.length)]
     },
-    initD3() {
+    initD3 () {
       const _this = this
       const containerWidth = window.innerWidth
       const containerHeight = window.innerHeight
@@ -110,7 +101,6 @@ export default {
             return _this.randomColor()
           })
         })
-
     }
   }
 }

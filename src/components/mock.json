@@ -7,7 +7,6 @@
       "name": "composed_of",
       "semantic_type": "composed_of",
       "properties": {
-        "scenes": "allinmd",
         "status": 1,
         "lastModified": 1618832915,
         "releaseDate": 1618832915
@@ -19,7 +18,6 @@
         "semantic_type": "Symptom",
         "labels": ["Concept", "Symptom"],
         "properties": {
-          "scenes": "allinmd",
           "status": 1,
           "lastModified": 1618384950,
           "releaseDate": 1618384950
@@ -30,7 +28,6 @@
       "name": "composed_of",
       "semantic_type": "composed_of",
       "properties": {
-        "scenes": "allinmd",
         "status": 1,
         "lastModified": 1618803809,
         "releaseDate": 1618803809
@@ -42,7 +39,6 @@
         "semantic_type": "Symptom",
         "labels": ["Concept", "Symptom"],
         "properties": {
-          "scenes": "allinmd",
           "status": 1,
           "lastModified": 1618293198,
           "releaseDate": 1618293198
@@ -53,7 +49,6 @@
       "name": "relation",
       "semantic_type": "relation",
       "properties": {
-        "scenes": "allinmd",
         "status": 1,
         "lastModified": 1618885401,
         "releaseDate": 1618885401
@@ -65,7 +60,6 @@
         "semantic_type": "BodyStructure",
         "labels": ["Concept", "Disease"],
         "properties": {
-          "scenes": "allinmd",
           "status": 1,
           "lastModified": 1618293198,
           "releaseDate": 1618293198
@@ -76,7 +70,6 @@
       "name": "relation",
       "semantic_type": "relation",
       "properties": {
-        "scenes": "allinmd",
         "status": 1,
         "lastModified": 1618885282,
         "releaseDate": 1618885282
@@ -88,7 +81,6 @@
         "semantic_type": "Disease",
         "labels": ["Concept", "Disease"],
         "properties": {
-          "scenes": "allinmd",
           "status": 1,
           "lastModified": 1618293198,
           "releaseDate": 1618293198
@@ -99,7 +91,6 @@
       "name": "relation",
       "semantic_type": "relation",
       "properties": {
-        "scenes": "allinmd",
         "status": 1,
         "lastModified": 1618885172,
         "releaseDate": 1618885172
@@ -111,7 +102,6 @@
         "semantic_type": "Side",
         "labels": ["Concept", "Disease"],
         "properties": {
-          "scenes": "allinmd",
           "status": 1,
           "lastModified": 1618293198,
           "releaseDate": 1618293198
@@ -122,7 +112,6 @@
       "name": "relation",
       "semantic_type": "relation",
       "properties": {
-        "scenes": "allinmd",
         "status": 1,
         "lastModified": 1618885118,
         "releaseDate": 1618885118
@@ -134,7 +123,6 @@
         "semantic_type": "Disease",
         "labels": ["Concept", "Disease"],
         "properties": {
-          "scenes": "allinmd",
           "status": 1,
           "lastModified": 1618293198,
           "releaseDate": 1618293198
@@ -145,7 +133,6 @@
       "name": "relation",
       "semantic_type": "relation",
       "properties": {
-        "scenes": "allinmd",
         "status": 1,
         "lastModified": 1618884966,
         "releaseDate": 1618884966
@@ -157,7 +144,6 @@
         "semantic_type": "Disease",
         "labels": ["Concept", "Disease"],
         "properties": {
-          "scenes": "allinmd",
           "status": 1,
           "lastModified": 1618293198,
           "releaseDate": 1618293198
@@ -168,7 +154,6 @@
       "name": "relation",
       "semantic_type": "relation",
       "properties": {
-        "scenes": "allinmd",
         "status": 1,
         "lastModified": 1618883252,
         "releaseDate": 1618883252
@@ -180,7 +165,6 @@
         "semantic_type": "Disease",
         "labels": ["Concept", "Disease"],
         "properties": {
-          "scenes": "allinmd",
           "status": 1,
           "lastModified": 1618293198,
           "releaseDate": 1618293198
@@ -191,7 +175,6 @@
       "name": "relation",
       "semantic_type": "relation",
       "properties": {
-        "scenes": "allinmd",
         "status": 1,
         "lastModified": 1618886711,
         "releaseDate": 1618886711
@@ -203,7 +186,6 @@
         "semantic_type": "BetterAndWorse",
         "labels": ["Concept", "Disease"],
         "properties": {
-          "scenes": "allinmd",
           "status": 1,
           "lastModified": 1618293198,
           "releaseDate": 1618293198
@@ -214,7 +196,6 @@
       "name": "relation",
       "semantic_type": "relation",
       "properties": {
-        "scenes": "allinmd",
         "status": 1,
         "lastModified": 1618886139,
         "releaseDate": 1618886139
@@ -226,7 +207,6 @@
         "semantic_type": "Disease",
         "labels": ["Concept", "Disease"],
         "properties": {
-          "scenes": "allinmd",
           "status": 1,
           "lastModified": 1618293198,
           "releaseDate": 1618293198
@@ -237,7 +217,6 @@
       "name": "relation",
       "semantic_type": "relation",
       "properties": {
-        "scenes": "allinmd",
         "status": 1,
         "lastModified": 1618886026,
         "releaseDate": 1618886026
@@ -249,7 +228,6 @@
         "semantic_type": "Relieve",
         "labels": ["Concept", "Disease"],
         "properties": {
-          "scenes": "allinmd",
           "status": 1,
           "lastModified": 1618293198,
           "releaseDate": 1618293198
@@ -260,7 +238,6 @@
       "name": "relation",
       "semantic_type": "relation",
       "properties": {
-        "scenes": "allinmd",
         "status": 1,
         "lastModified": 1618885900,
         "releaseDate": 1618885900
@@ -272,7 +249,6 @@
         "semantic_type": "Disease",
         "labels": ["Concept", "Disease"],
         "properties": {
-          "scenes": "allinmd",
           "status": 1,
           "lastModified": 1618293198,
           "releaseDate": 1618293198
@@ -283,7 +259,6 @@
       "name": "relation",
       "semantic_type": "relation",
       "properties": {
-        "scenes": "allinmd",
         "status": 1,
         "lastModified": 1618803809,
         "releaseDate": 1618803809
@@ -295,7 +270,6 @@
         "semantic_type": "Disease",
         "labels": ["Concept", "Disease"],
         "properties": {
-          "scenes": "allinmd",
           "status": 1,
           "lastModified": 1618293198,
           "releaseDate": 1618293198
@@ -306,7 +280,6 @@
       "name": "relation",
       "semantic_type": "relation",
       "properties": {
-        "scenes": "allinmd",
         "status": 1,
         "lastModified": 1618803809,
         "releaseDate": 1618803809
@@ -318,7 +291,6 @@
         "semantic_type": "Disease",
         "labels": ["Concept", "Disease"],
         "properties": {
-          "scenes": "allinmd",
           "status": 1,
           "lastModified": 1618293198,
           "releaseDate": 1618293198
@@ -329,7 +301,6 @@
       "name": "relation",
       "semantic_type": "relation",
       "properties": {
-        "scenes": "allinmd",
         "status": 1,
         "lastModified": 1618882945,
         "releaseDate": 1618882945
@@ -341,7 +312,6 @@
         "semantic_type": "Action",
         "labels": ["Concept", "Disease"],
         "properties": {
-          "scenes": "allinmd",
           "status": 1,
           "lastModified": 1618293198,
           "releaseDate": 1618293198
@@ -352,7 +322,6 @@
       "name": "relation",
       "semantic_type": "relation",
       "properties": {
-        "scenes": "allinmd",
         "status": 1,
         "lastModified": 1618886473,
         "releaseDate": 1618886473
@@ -364,7 +333,6 @@
         "semantic_type": "Disease",
         "labels": ["Concept", "Disease"],
         "properties": {
-          "scenes": "allinmd",
           "status": 1,
           "lastModified": 1618293198,
           "releaseDate": 1618293198

@@ -1,12 +1,3 @@
-<!--
- * @Author: liuzhenghe
- * @Email: 15901450207@163.com
- * @Date: 2021-04-30 14:04:57
- * @LastEditors: liuzhenghe
- * @LastEditTime: 2021-05-06 09:47:51
- * @Descripttion: 图谱可视化
--->
-
 <template>
   <div
     class="d3-container">
@@ -48,7 +39,7 @@
 import * as d3 from 'd3'
 import mock from './mock.json'
 export default {
-  data() {
+  data () {
     return {
       info: '',
       typeCategories: {},
@@ -61,7 +52,7 @@ export default {
   },
   watch: {
     nodes: {
-      handler(val) {
+      handler (val) {
         // 监听节点变化，设置类型标签
         const obj = {}
         val.forEach(e => {
@@ -75,16 +66,16 @@ export default {
       deep: true
     }
   },
-  mounted() {
+  mounted () {
     this.setTypeColor()
     this.initD3()
   },
   methods: {
-    handleTypeMouseout() {
+    handleTypeMouseout () {
       d3.selectAll('.single-node').style('opacity', 1)
       d3.selectAll('.single-line').style('opacity', 1)
     },
-    handleTypeMouseover(data) {
+    handleTypeMouseover (data) {
       d3.selectAll('.single-node').style('opacity', 0.1)
       d3.selectAll('.single-line').style('opacity', 0.1)
       for (let i = 0; i < data.length; i++) {
@@ -92,7 +83,7 @@ export default {
         d3.selectAll(nodeID).style('opacity', 1)
       }
     },
-    setTypeColor() {
+    setTypeColor () {
       const obj = {}
       this.type.forEach(e => {
         if (Object.keys(obj).indexOf('' + e) === -1) {
@@ -102,11 +93,11 @@ export default {
       })
       this.typeColor = obj
     },
-    randomColor() {
+    randomColor () {
       const colors = ['#F4AB87', '#EEC88D', '#76CADF', '#97DA9D', '#88DCD8', '#FB7F89', '#F0E403', '#F576BE', '#ACADFF', '#7EC3FB', '#D0DB02', '#C07B11', '#00ACC2', '#2AAD41', '#A59D00', '#EB4747', '#CD0EBD', '#DE3997']
       return colors[Math.floor(Math.random() * colors.length)]
     },
-    initD3() {
+    initD3 () {
       const _this = this
       // 数据示例
       // nodes = [
@@ -174,7 +165,7 @@ export default {
         .attr('class', 'node-container')
         .selectAll('circle')
 
-      function ticked() {
+      function ticked () {
         node
           .attr('transform', function (d) {
             return 'translate(' + d.x + ',' + d.y + ')'
@@ -192,7 +183,7 @@ export default {
 
       // 更新
       const updateObj = Object.assign(svg.node(), {
-        update({ nodes, links }) {
+        update ({ nodes, links }) {
           // 做一个浅复制，以防止突变，回收旧节点以保持位置和速度
           const old = new Map(node.data().map(d => [d.id, d]))
           nodes = nodes.map(d => Object.assign(old.get(d.id) || {}, d))
@@ -339,7 +330,7 @@ export default {
        * @name: 设置节点颜色
        * @param {*} node
        */
-      function nodeColor(node) {
+      function nodeColor (node) {
         const type = node.semantic_type
         if (_this.typeColor[type]) {
           return _this.typeColor[type]
@@ -352,7 +343,7 @@ export default {
        * @name: 新增节点和关系
        * @param {*} node
        */
-      function addNodesAndLinks(node) {
+      function addNodesAndLinks (node) {
         // 模拟接口返回节点和关系数据
         _this.$nextTick(() => {
           const res = mock
@@ -379,7 +370,6 @@ export default {
             'semantic_type': 'Symptom',
             'labels': ['Concept', 'Symptom'],
             'properties': {
-              'scenes': 'allinmd',
               'status': 1,
               'lastModified': 1618293198,
               'releaseDate': 1618293198
@@ -399,7 +389,7 @@ export default {
        * @name: 关联节点去重重组
        * @param {*} objarray
        */
-      function uniqObjInArray(objarray) {
+      function uniqObjInArray (objarray) {
         const len = objarray.length
         const tempJson = {}
         const res = []
@@ -418,7 +408,7 @@ export default {
        * @name: 收起，删除当前节点下一级没有其他关系的节点
        * @param {*} node
        */
-      function deleteNextNodes(node) {
+      function deleteNextNodes (node) {
         const relationNode = []
         const relationList = []
         const hasRelationList = []
@@ -471,7 +461,7 @@ export default {
        * @name: 隐藏，删除当前及下一级没有其他关系的节点
        * @param {*} node
        */
-      function deleteNodeAndLinks(node) {
+      function deleteNodeAndLinks (node) {
         const removeIndex = _this.nodes.findIndex(data => data.id === node.id)
         _this.nodes.splice(removeIndex, 1)
         const relationNode = []
@@ -523,7 +513,7 @@ export default {
        * @param {*} d 当前元素对应的数据
        * @param {*} flag 显隐
        */
-      function toggleMenu(current, d, flag) {
+      function toggleMenu (current, d, flag) {
         const currentD = d
         const data = [{
           population: 30,
@@ -664,7 +654,7 @@ export default {
        * @param {*} data
        * @param {*} breaking 是否换行
        */
-      function textBreaking(dom, data, breaking) {
+      function textBreaking (dom, data, breaking) {
         const text = data.name
         if (breaking) {
           const len = text.length
@@ -720,18 +710,18 @@ export default {
         * @name: 拖动
         * @param {*} event
         */
-      function dragstarted(event) {
+      function dragstarted (event) {
         if (!d3.event.active) {
           simulation.alphaTarget(0.8).restart() // 设置衰减系数，对节点位置移动过程的模拟，数值越高移动越快，数值范围[0, 1]
         }
         event.fx = event.x
         event.fy = event.y
       }
-      function dragged(event) {
+      function dragged (event) {
         event.fx = d3.event.x
         event.fy = d3.event.y
       }
-      function dragended(event) {
+      function dragended (event) {
         if (!d3.event.active) {
           simulation.alphaTarget(0)
         }
@@ -756,7 +746,6 @@ export default {
             'semantic_type': 'Disease',
             'labels': ['Concept', 'Disease'],
             'properties': {
-              'scenes': 'allinmd',
               'status': 1,
               'lastModified': 1618293198,
               'releaseDate': 1618293198
